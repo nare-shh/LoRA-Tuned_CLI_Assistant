@@ -1,0 +1,494 @@
+{"question": "How do I create a new Git branch?", "answer": "Use: git checkout -b <branch-name>"}
+{"question": "How to create a new branch in Git?", "answer": "Use: git checkout -b <branch-name>"}
+{"question": "What's the command to make a new Git branch?", "answer": "Use: git checkout -b <branch-name>"}
+{"question": "How do I switch to a new branch in Git?", "answer": "Use: git checkout -b <branch-name> to create and switch"}
+{"question": "Create and switch to new Git branch command?", "answer": "Use: git checkout -b <branch-name>"}
+{"question": "How to clone a Git repository?", "answer": "Use: git clone <repository-url>"}
+{"question": "What's the command to clone a repo?", "answer": "Use: git clone <repository-url>"}
+{"question": "How do I download a Git repository?", "answer": "Use: git clone <repository-url>"}
+{"question": "Clone Git repo command?", "answer": "Use: git clone <repository-url>"}
+{"question": "How do I stage all changes in Git?", "answer": "Use: git add ."}
+{"question": "How to add all files to Git staging?", "answer": "Use: git add ."}
+{"question": "Stage all changes Git command?", "answer": "Use: git add ."}
+{"question": "How do I stage everything in Git?", "answer": "Use: git add ."}
+{"question": "Add all files to staging area?", "answer": "Use: git add ."}
+{"question": "How to commit changes with a message?", "answer": "Use: git commit -m \"your message\""}
+{"question": "How do I commit with message in Git?", "answer": "Use: git commit -m \"your message\""}
+{"question": "Git commit with message command?", "answer": "Use: git commit -m \"your message\""}
+{"question": "How to make a commit with description?", "answer": "Use: git commit -m \"your message\""}
+{"question": "How do I push to remote repository?", "answer": "Use: git push origin <branch-name>"}
+{"question": "Push changes to remote Git command?", "answer": "Use: git push origin <branch-name>"}
+{"question": "How to upload changes to Git remote?", "answer": "Use: git push origin <branch-name>"}
+{"question": "Send commits to remote repository?", "answer": "Use: git push origin <branch-name>"}
+{"question": "How to check Git status?", "answer": "Use: git status"}
+{"question": "Check Git repository status command?", "answer": "Use: git status"}
+{"question": "How do I see Git changes?", "answer": "Use: git status"}
+{"question": "View Git working directory status?", "answer": "Use: git status"}
+{"question": "How do I undo the last commit but keep changes?", "answer": "Use: git reset --soft HEAD~1"}
+{"question": "Undo last commit keep files Git?", "answer": "Use: git reset --soft HEAD~1"}
+{"question": "How to revert last commit but preserve changes?", "answer": "Use: git reset --soft HEAD~1"}
+{"question": "Git undo commit keep working directory?", "answer": "Use: git reset --soft HEAD~1"}
+{"question": "How to completely remove the last commit?", "answer": "Use: git reset --hard HEAD~1"}
+{"question": "Delete last commit completely Git?", "answer": "Use: git reset --hard HEAD~1"}
+{"question": "How do I permanently remove last commit?", "answer": "Use: git reset --hard HEAD~1"}
+{"question": "Git hard reset last commit command?", "answer": "Use: git reset --hard HEAD~1"}
+{"question": "How do I stash my current changes?", "answer": "Use: git stash or git stash save \"message\""}
+{"question": "Save current work Git stash?", "answer": "Use: git stash or git stash save \"message\""}
+{"question": "How to temporarily save changes Git?", "answer": "Use: git stash or git stash save \"message\""}
+{"question": "Git stash current changes command?", "answer": "Use: git stash or git stash save \"message\""}
+{"question": "How to apply stashed changes?", "answer": "Use: git stash pop or git stash apply"}
+{"question": "Restore Git stash command?", "answer": "Use: git stash pop or git stash apply"}
+{"question": "How do I get back stashed changes?", "answer": "Use: git stash pop or git stash apply"}
+{"question": "Apply saved stash Git?", "answer": "Use: git stash pop or git stash apply"}
+{"question": "How do I see the difference between commits?", "answer": "Use: git diff <commit1> <commit2>"}
+{"question": "Compare two commits Git command?", "answer": "Use: git diff <commit1> <commit2>"}
+{"question": "Show changes between Git commits?", "answer": "Use: git diff <commit1> <commit2>"}
+{"question": "Git diff between two revisions?", "answer": "Use: git diff <commit1> <commit2>"}
+{"question": "How to cherry-pick a commit?", "answer": "Use: git cherry-pick <commit-hash>"}
+{"question": "Apply specific commit Git cherry-pick?", "answer": "Use: git cherry-pick <commit-hash>"}
+{"question": "How do I pick a commit from another branch?", "answer": "Use: git cherry-pick <commit-hash>"}
+{"question": "Git cherry-pick commit command?", "answer": "Use: git cherry-pick <commit-hash>"}
+{"question": "How do I rebase my branch?", "answer": "Use: git rebase <target-branch>"}
+{"question": "Rebase current branch Git command?", "answer": "Use: git rebase <target-branch>"}
+{"question": "How to rebase onto another branch?", "answer": "Use: git rebase <target-branch>"}
+{"question": "Git rebase branch command?", "answer": "Use: git rebase <target-branch>"}
+{"question": "How to squash commits interactively?", "answer": "Use: git rebase -i HEAD~<number-of-commits>"}
+{"question": "Interactive rebase Git squash commits?", "answer": "Use: git rebase -i HEAD~<number-of-commits>"}
+{"question": "How do I combine multiple commits?", "answer": "Use: git rebase -i HEAD~<number-of-commits>"}
+{"question": "Git interactive rebase command?", "answer": "Use: git rebase -i HEAD~<number-of-commits>"}
+{"question": "How do I see who modified each line?", "answer": "Use: git blame <filename>"}
+{"question": "Git blame file command?", "answer": "Use: git blame <filename>"}
+{"question": "Show line authors Git command?", "answer": "Use: git blame <filename>"}
+{"question": "Who changed each line Git?", "answer": "Use: git blame <filename>"}
+{"question": "How do I add a remote repository?", "answer": "Use: git remote add <name> <url>"}
+{"question": "Add Git remote command?", "answer": "Use: git remote add <name> <url>"}
+{"question": "How to connect to remote Git repo?", "answer": "Use: git remote add <name> <url>"}
+{"question": "Git add remote repository?", "answer": "Use: git remote add <name> <url>"}
+{"question": "How to fetch from remote without merging?", "answer": "Use: git fetch origin"}
+{"question": "Git fetch without merge command?", "answer": "Use: git fetch origin"}
+{"question": "Download remote changes Git fetch?", "answer": "Use: git fetch origin"}
+{"question": "How do I get remote updates without merging?", "answer": "Use: git fetch origin"}
+{"question": "How do I pull changes from remote?", "answer": "Use: git pull origin <branch-name>"}
+{"question": "Git pull remote changes command?", "answer": "Use: git pull origin <branch-name>"}
+{"question": "Download and merge remote changes?", "answer": "Use: git pull origin <branch-name>"}
+{"question": "How to sync with remote branch?", "answer": "Use: git pull origin <branch-name>"}
+{"question": "How to push a new branch to remote?", "answer": "Use: git push -u origin <branch-name>"}
+{"question": "Push new branch upstream Git?", "answer": "Use: git push -u origin <branch-name>"}
+{"question": "How do I upload new branch to remote?", "answer": "Use: git push -u origin <branch-name>"}
+{"question": "Git push new branch with tracking?", "answer": "Use: git push -u origin <branch-name>"}
+{"question": "How do I delete a remote branch?", "answer": "Use: git push origin --delete <branch-name>"}
+{"question": "Delete remote branch Git command?", "answer": "Use: git push origin --delete <branch-name>"}
+{"question": "Remove branch from remote repository?", "answer": "Use: git push origin --delete <branch-name>"}
+{"question": "Git delete remote branch?", "answer": "Use: git push origin --delete <branch-name>"}
+{"question": "How to see all remotes?", "answer": "Use: git remote -v"}
+{"question": "List Git remotes command?", "answer": "Use: git remote -v"}
+{"question": "Show all remote repositories?", "answer": "Use: git remote -v"}
+{"question": "Git list remotes with URLs?", "answer": "Use: git remote -v"}
+{"question": "How do I list all files including hidden ones?", "answer": "Use: ls -la"}
+{"question": "List hidden files command?", "answer": "Use: ls -la"}
+{"question": "Show all files including dot files?", "answer": "Use: ls -la"}
+{"question": "How to see hidden files in directory?", "answer": "Use: ls -la"}
+{"question": "Display all files with details?", "answer": "Use: ls -la"}
+{"question": "Long listing with hidden files?", "answer": "Use: ls -la"}
+{"question": "How to copy a file?", "answer": "Use: cp <source> <destination>"}
+{"question": "Copy file command Linux?", "answer": "Use: cp <source> <destination>"}
+{"question": "How do I duplicate a file?", "answer": "Use: cp <source> <destination>"}
+{"question": "File copy command?", "answer": "Use: cp <source> <destination>"}
+{"question": "How do I move or rename a file?", "answer": "Use: mv <old-name> <new-name>"}
+{"question": "Move file command?", "answer": "Use: mv <old-name> <new-name>"}
+{"question": "Rename file Linux command?", "answer": "Use: mv <old-name> <new-name>"}
+{"question": "How to relocate a file?", "answer": "Use: mv <old-name> <new-name>"}
+{"question": "How to delete a file?", "answer": "Use: rm <filename>"}
+{"question": "Remove file command?", "answer": "Use: rm <filename>"}
+{"question": "Delete file Linux?", "answer": "Use: rm <filename>"}
+{"question": "How do I erase a file?", "answer": "Use: rm <filename>"}
+{"question": "How do I create a directory?", "answer": "Use: mkdir <directory-name>"}
+{"question": "Make directory command?", "answer": "Use: mkdir <directory-name>"}
+{"question": "Create folder Linux?", "answer": "Use: mkdir <directory-name>"}
+{"question": "How to make a new folder?", "answer": "Use: mkdir <directory-name>"}
+{"question": "How to remove an empty directory?", "answer": "Use: rmdir <directory> or rm -d <directory>"}
+{"question": "Delete empty folder command?", "answer": "Use: rmdir <directory> or rm -d <directory>"}
+{"question": "Remove empty directory Linux?", "answer": "Use: rmdir <directory> or rm -d <directory>"}
+{"question": "How do I remove a directory and its contents?", "answer": "Use: rm -rf <directory>"}
+{"question": "Delete folder with files command?", "answer": "Use: rm -rf <directory>"}
+{"question": "Remove directory recursively?", "answer": "Use: rm -rf <directory>"}
+{"question": "Force delete directory with contents?", "answer": "Use: rm -rf <directory>"}
+{"question": "How to change file permissions?", "answer": "Use: chmod <permissions> <file>, e.g., chmod 755 script.sh"}
+{"question": "Change file permissions command?", "answer": "Use: chmod <permissions> <file>, e.g., chmod 755 script.sh"}
+{"question": "Modify file permissions Linux?", "answer": "Use: chmod <permissions> <file>, e.g., chmod 755 script.sh"}
+{"question": "Set file permissions chmod?", "answer": "Use: chmod <permissions> <file>, e.g., chmod 755 script.sh"}
+{"question": "How do I find files by name?", "answer": "Use: find . -name \"<pattern>\" or find <path> -name \"<filename>\""}
+{"question": "Search for files by name?", "answer": "Use: find . -name \"<pattern>\" or find <path> -name \"<filename>\""}
+{"question": "Locate files with specific name?", "answer": "Use: find . -name \"<pattern>\" or find <path> -name \"<filename>\""}
+{"question": "Find command search by filename?", "answer": "Use: find . -name \"<pattern>\" or find <path> -name \"<filename>\""}
+{"question": "How to check file size?", "answer": "Use: ls -lh <file> or du -h <file>"}
+{"question": "Show file size command?", "answer": "Use: ls -lh <file> or du -h <file>"}
+{"question": "Get file size Linux?", "answer": "Use: ls -lh <file> or du -h <file>"}
+{"question": "Check how big a file is?", "answer": "Use: ls -lh <file> or du -h <file>"}
+{"question": "How do I copy directories recursively?", "answer": "Use: cp -r <source-dir> <destination-dir>"}
+{"question": "Copy folder with subdirectories?", "answer": "Use: cp -r <source-dir> <destination-dir>"}
+{"question": "Recursive directory copy command?", "answer": "Use: cp -r <source-dir> <destination-dir>"}
+{"question": "How to copy entire directory tree?", "answer": "Use: cp -r <source-dir> <destination-dir>"}
+{"question": "How to create multiple nested directories?", "answer": "Use: mkdir -p path/to/nested/directories"}
+{"question": "Make nested directories command?", "answer": "Use: mkdir -p path/to/nested/directories"}
+{"question": "Create directory path recursively?", "answer": "Use: mkdir -p path/to/nested/directories"}
+{"question": "How do I make parent directories?", "answer": "Use: mkdir -p path/to/nested/directories"}
+{"question": "How do I find files by size?", "answer": "Use: find . -size +100M (larger than 100MB) or find . -size -1k (smaller than 1KB)"}
+{"question": "Search files by size command?", "answer": "Use: find . -size +100M (larger than 100MB) or find . -size -1k (smaller than 1KB)"}
+{"question": "Find large files command?", "answer": "Use: find . -size +100M (larger than 100MB) or find . -size -1k (smaller than 1KB)"}
+{"question": "Locate files bigger than specific size?", "answer": "Use: find . -size +100M (larger than 100MB) or find . -size -1k (smaller than 1KB)"}
+{"question": "How to find files modified in the last hour?", "answer": "Use: find . -mmin -60"}
+{"question": "Find recently modified files?", "answer": "Use: find . -mmin -60"}
+{"question": "Search files changed in last 60 minutes?", "answer": "Use: find . -mmin -60"}
+{"question": "Recently modified files command?", "answer": "Use: find . -mmin -60"}
+{"question": "How do I find files by type?", "answer": "Use: find . -type f (files) or find . -type d (directories)"}
+{"question": "Search files by type command?", "answer": "Use: find . -type f (files) or find . -type d (directories)"}
+{"question": "Find only files or directories?", "answer": "Use: find . -type f (files) or find . -type d (directories)"}
+{"question": "Filter find results by file type?", "answer": "Use: find . -type f (files) or find . -type d (directories)"}
+{"question": "How to find and delete files?", "answer": "Use: find . -name \"*.tmp\" -delete"}
+{"question": "Find and remove files command?", "answer": "Use: find . -name \"*.tmp\" -delete"}
+{"question": "Search and delete matching files?", "answer": "Use: find . -name \"*.tmp\" -delete"}
+{"question": "Bulk delete files by pattern?", "answer": "Use: find . -name \"*.tmp\" -delete"}
+{"question": "How do I create a symbolic link?", "answer": "Use: ln -s <target> <link-name>"}
+{"question": "Make symbolic link command?", "answer": "Use: ln -s <target> <link-name>"}
+{"question": "Create symlink Linux?", "answer": "Use: ln -s <target> <link-name>"}
+{"question": "How to make soft link?", "answer": "Use: ln -s <target> <link-name>"}
+{"question": "How to create a hard link?", "answer": "Use: ln <target-file> <link-name>"}
+{"question": "Make hard link command?", "answer": "Use: ln <target-file> <link-name>"}
+{"question": "Create hard link Linux?", "answer": "Use: ln <target-file> <link-name>"}
+{"question": "How to show file tree structure?", "answer": "Use: tree or find . -type d | sort"}
+{"question": "Display directory tree?", "answer": "Use: tree or find . -type d | sort"}
+{"question": "Show folder hierarchy?", "answer": "Use: tree or find . -type d | sort"}
+{"question": "Directory tree view command?", "answer": "Use: tree or find . -type d | sort"}
+{"question": "How do I search for text in files?", "answer": "Use: grep \"<pattern>\" <file> or grep -r \"<pattern>\" <directory>"}
+{"question": "Search text in file command?", "answer": "Use: grep \"<pattern>\" <file> or grep -r \"<pattern>\" <directory>"}
+{"question": "Find text pattern in files?", "answer": "Use: grep \"<pattern>\" <file> or grep -r \"<pattern>\" <directory>"}
+{"question": "How to search string in files?", "answer": "Use: grep \"<pattern>\" <file> or grep -r \"<pattern>\" <directory>"}
+{"question": "Grep command search text?", "answer": "Use: grep \"<pattern>\" <file> or grep -r \"<pattern>\" <directory>"}
+{"question": "How to count lines in a file?", "answer": "Use: wc -l <filename>"}
+{"question": "Count file lines command?", "answer": "Use: wc -l <filename>"}
+{"question": "How many lines in file?", "answer": "Use: wc -l <filename>"}
+{"question": "Line count command Linux?", "answer": "Use: wc -l <filename>"}
+{"question": "How do I view the first 10 lines of a file?", "answer": "Use: head <filename> or head -n 10 <filename>"}
+{"question": "Show first lines of file?", "answer": "Use: head <filename> or head -n 10 <filename>"}
+{"question": "Display top of file command?", "answer": "Use: head <filename> or head -n 10 <filename>"}
+{"question": "Head command show beginning?", "answer": "Use: head <filename> or head -n 10 <filename>"}
+{"question": "How to view the last 10 lines of a file?", "answer": "Use: tail <filename> or tail -n 10 <filename>"}
+{"question": "Show last lines of file?", "answer": "Use: tail <filename> or tail -n 10 <filename>"}
+{"question": "Display end of file command?", "answer": "Use: tail <filename> or tail -n 10 <filename>"}
+{"question": "Tail command show bottom?", "answer": "Use: tail <filename> or tail -n 10 <filename>"}
+{"question": "How do I sort lines in a file?", "answer": "Use: sort <filename> or sort <file> > sorted_file"}
+{"question": "Sort file lines command?", "answer": "Use: sort <filename> or sort <file> > sorted_file"}
+{"question": "Alphabetical sort file?", "answer": "Use: sort <filename> or sort <file> > sorted_file"}
+{"question": "How to order lines in file?", "answer": "Use: sort <filename> or sort <file> > sorted_file"}
+{"question": "How to remove duplicate lines?", "answer": "Use: sort <file> | uniq or sort -u <file>"}
+{"question": "Remove duplicate lines command?", "answer": "Use: sort <file> | uniq or sort -u <file>"}
+{"question": "Delete duplicate entries file?", "answer": "Use: sort <file> | uniq or sort -u <file>"}
+{"question": "Unique lines only command?", "answer": "Use: sort <file> | uniq or sort -u <file>"}
+{"question": "How do I replace text in a file?", "answer": "Use: sed 's/old/new/g' <file> or sed -i 's/old/new/g' <file>"}
+{"question": "Replace text in file command?", "answer": "Use: sed 's/old/new/g' <file> or sed -i 's/old/new/g' <file>"}
+{"question": "Find and replace text Linux?", "answer": "Use: sed 's/old/new/g' <file> or sed -i 's/old/new/g' <file>"}
+{"question": "Sed replace string command?", "answer": "Use: sed 's/old/new/g' <file> or sed -i 's/old/new/g' <file>"}
+{"question": "How to concatenate files?", "answer": "Use: cat file1 file2 > combined_file"}
+{"question": "Combine files command?", "answer": "Use: cat file1 file2 > combined_file"}
+{"question": "Merge multiple files?", "answer": "Use: cat file1 file2 > combined_file"}
+{"question": "Join files together?", "answer": "Use: cat file1 file2 > combined_file"}
+{"question": "How do I search case-insensitively?", "answer": "Use: grep -i \"pattern\" <file>"}
+{"question": "Case insensitive search grep?", "answer": "Use: grep -i \"pattern\" <file>"}
+{"question": "Ignore case when searching?", "answer": "Use: grep -i \"pattern\" <file>"}
+{"question": "Search without case sensitivity?", "answer": "Use: grep -i \"pattern\" <file>"}
+{"question": "How to search for whole words only?", "answer": "Use: grep -w \"word\" <file>"}
+{"question": "Whole word search grep?", "answer": "Use: grep -w \"word\" <file>"}
+{"question": "Match complete words only?", "answer": "Use: grep -w \"word\" <file>"}
+{"question": "Word boundary search command?", "answer": "Use: grep -w \"word\" <file>"}
+{"question": "How do I count word occurrences?", "answer": "Use: grep -o \"word\" <file> | wc -l"}
+{"question": "Count word frequency command?", "answer": "Use: grep -o \"word\" <file> | wc -l"}
+{"question": "How many times word appears?", "answer": "Use: grep -o \"word\" <file> | wc -l"}
+{"question": "Word count in file?", "answer": "Use: grep -o \"word\" <file> | wc -l"}
+{"question": "How to show line numbers in grep?", "answer": "Use: grep -n \"pattern\" <file>"}
+{"question": "Grep with line numbers?", "answer": "Use: grep -n \"pattern\" <file>"}
+{"question": "Show line numbers when searching?", "answer": "Use: grep -n \"pattern\" <file>"}
+{"question": "Display line numbers in search results?", "answer": "Use: grep -n \"pattern\" <file>"}
+{"question": "How do I extract specific columns?", "answer": "Use: cut -d',' -f2 <file> (2nd column, comma-separated)"}
+{"question": "Extract column from file?", "answer": "Use: cut -d',' -f2 <file> (2nd column, comma-separated)"}
+{"question": "Get specific field from CSV?", "answer": "Use: cut -d',' -f2 <file> (2nd column, comma-separated)"}
+{"question": "Cut command extract column?", "answer": "Use: cut -d',' -f2 <file> (2nd column, comma-separated)"}
+{"question": "How to split a file into smaller parts?", "answer": "Use: split -l 1000 <file> <prefix> (1000 lines per part)"}
+{"question": "Split large file command?", "answer": "Use: split -l 1000 <file> <prefix> (1000 lines per part)"}
+{"question": "Divide file into chunks?", "answer": "Use: split -l 1000 <file> <prefix> (1000 lines per part)"}
+{"question": "Break file into smaller files?", "answer": "Use: split -l 1000 <file> <prefix> (1000 lines per part)"}
+{"question": "How do I join files side by side?", "answer": "Use: paste file1 file2"}
+{"question": "Paste files horizontally?", "answer": "Use: paste file1 file2"}
+{"question": "Combine files column-wise?", "answer": "Use: paste file1 file2"}
+{"question": "Merge files side by side?", "answer": "Use: paste file1 file2"}
+{"question": "How to print specific lines?", "answer": "Use: sed -n '10,20p' <file> (lines 10-20)"}
+{"question": "Extract specific line range?", "answer": "Use: sed -n '10,20p' <file> (lines 10-20)"}
+{"question": "Print lines 10 to 20?", "answer": "Use: sed -n '10,20p' <file> (lines 10-20)"}
+{"question": "Show specific line numbers?", "answer": "Use: sed -n '10,20p' <file> (lines 10-20)"}
+{"question": "How do I reverse file content?", "answer": "Use: tac <filename> (reverse line order) or rev <file> (reverse each line)"}
+{"question": "Reverse file lines command?", "answer": "Use: tac <filename> (reverse line order) or rev <file> (reverse each line)"}
+{"question": "Backwards file content?", "answer": "Use: tac <filename> (reverse line order) or rev <file> (reverse each line)"}
+{"question": "Flip file order command?", "answer": "Use: tac <filename> (reverse line order) or rev <file> (reverse each line)"}
+{"question": "How do I create a tar archive?", "answer": "Use: tar -cf archive.tar <files/directories>"}
+{"question": "Make tar archive command?", "answer": "Use: tar -cf archive.tar <files/directories>"}
+{"question": "Create tar file Linux?", "answer": "Use: tar -cf archive.tar <files/directories>"}
+{"question": "Tar create archive?", "answer": "Use: tar -cf archive.tar <files/directories>"}
+{"question": "How to create a compressed tar archive?", "answer": "Use: tar -czf archive.tar.gz <files/directories>"}
+{"question": "Make compressed tar file?", "answer": "Use: tar -czf archive.tar.gz <files/directories>"}
+{"question": "Create gzipped tar archive?", "answer": "Use: tar -czf archive.tar.gz <files/directories>"}
+{"question": "Tar with gzip compression?", "answer": "Use: tar -czf archive.tar.gz <files/directories>"}
+{"question": "How do I extract a tar archive?", "answer": "Use: tar -xf archive.tar or tar -xzf archive.tar.gz"}
+{"question": "Extract tar file command?", "answer": "Use: tar -xf archive.tar or tar -xzf archive.tar.gz"}
+{"question": "Unpack tar archive?", "answer": "Use: tar -xf archive.tar or tar -xzf archive.tar.gz"}
+{"question": "Tar extract files?", "answer": "Use: tar -xf archive.tar or tar -xzf archive.tar.gz"}
+{"question": "How to list contents of tar archive?", "answer": "Use: tar -tf archive.tar"}
+{"question": "Show tar file contents?", "answer": "Use: tar -tf archive.tar"}
+{"question": "List files in tar archive?", "answer": "Use: tar -tf archive.tar"}
+{"question": "View tar archive contents?", "answer": "Use: tar -tf archive.tar"}
+{"question": "How do I create a zip archive?", "answer": "Use: zip archive.zip <files> or zip -r archive.zip <directory>"}
+{"question": "Make zip file command?", "answer": "Use: zip archive.zip <files> or zip -r archive.zip <directory>"}
+{"question": "Create zip archive Linux?", "answer": "Use: zip archive.zip <files> or zip -r archive.zip <directory>"}
+{"question": "Zip files and folders?", "answer": "Use: zip archive.zip <files> or zip -r archive.zip <directory>"}
+{"question": "How to extract a zip file?", "answer": "Use: unzip archive.zip"}
+{"question": "Extract zip archive command?", "answer": "Use: unzip archive.zip"}
+{"question": "Unpack zip file?", "answer": "Use: unzip archive.zip"}
+{"question": "Open zip archive?", "answer": "Use: unzip archive.zip"}
+{"question": "How do I extract to specific directory?", "answer": "Use: tar -xzf archive.tar.gz -C /target/directory"}
+{"question": "Extract archive to folder?", "answer": "Use: tar -xzf archive.tar.gz -C /target/directory"}
+{"question": "Unpack to specific location?", "answer": "Use: tar -xzf archive.tar.gz -C /target/directory"}
+{"question": "Extract tar to different directory?", "answer": "Use: tar -xzf archive.tar.gz -C /target/directory"}
+{"question": "How to create bzip2 archive?", "answer": "Use: tar -cjf archive.tar.bz2 <files>"}
+{"question": "Make bzip2 compressed archive?", "answer": "Use: tar -cjf archive.tar.bz2 <files>"}
+{"question": "Create tar.bz2 file?", "answer": "Use: tar -cjf archive.tar.bz2 <files>"}
+{"question": "Tar with bzip2 compression?", "answer": "Use: tar -cjf archive.tar.bz2 <files>"}
+{"question": "How do I compress a single file?", "answer": "Use: gzip <filename> or bzip2 <filename>"}
+{"question": "Compress single file command?", "answer": "Use: gzip <filename> or bzip2 <filename>"}
+{"question": "Gzip single file?", "answer": "Use: gzip <filename> or bzip2 <filename>"}
+{"question": "Compress one file only?", "answer": "Use: gzip <filename> or bzip2 <filename>"}
+{"question": "How to exclude files from archive?", "answer": "Use: tar -czf archive.tar.gz --exclude='*.log' <directory>"}
+{"question": "Tar exclude files pattern?", "answer": "Use: tar -czf archive.tar.gz --exclude='*.log' <directory>"}
+{"question": "Archive without specific files?", "answer": "Use: tar -czf archive.tar.gz --exclude='*.log' <directory>"}
+{"question": "Skip files when creating tar?", "answer": "Use: tar -czf archive.tar.gz --exclude='*.log' <directory>"}
+{"question": "How do I check running processes?", "answer": "Use: ps aux or top for interactive view"}
+{"question": "List running processes command?", "answer": "Use: ps aux or top for interactive view"}
+{"question": "Show active processes?", "answer": "Use: ps aux or top for interactive view"}
+{"question": "View current processes?", "answer": "Use: ps aux or top for interactive view"}
+{"question": "Process list command?", "answer": "Use: ps aux or top for interactive view"}
+{"question": "How to check disk usage?", "answer": "Use: df -h for filesystem usage or du -h <directory> for directory size"}
+{"question": "Check disk space command?", "answer": "Use: df -h for filesystem usage or du -h <directory> for directory size"}
+{"question": "Show disk usage?", "answer": "Use: df -h for filesystem usage or du -h <directory> for directory size"}
+{"question": "Free disk space command?", "answer": "Use: df -h for filesystem usage or du -h <directory> for directory size"}
+{"question": "Directory size command?", "answer": "Use: df -h for filesystem usage or du -h <directory> for directory size"}
+{"question": "How do I check memory usage?", "answer": "Use: free -h or top"}
+{"question": "Show memory usage command?", "answer": "Use: free -h or top"}
+{"question": "Check RAM usage?", "answer": "Use: free -h or top"}
+{"question": "Memory statistics command?", "answer": "Use: free -h or top"}
+{"question": "View memory consumption?", "answer": "Use: free -h or top"}
+{"question": "How to kill a process?", "answer": "Use: kill <PID> or killall <process-name>"}
+{"question": "Terminate process command?", "answer": "Use: kill <PID> or killall <process-name>"}
+{"question": "Stop running process?", "answer": "Use: kill <PID> or killall <process-name>"}
+{"question": "End process by PID?", "answer": "Use: kill <PID> or killall <process-name>"}
+{"question": "Kill process by name?", "answer": "Use: kill <PID> or killall <process-name>"}
+{"question": "How do I check system uptime?", "answer": "Use: uptime"}
+{"question": "System uptime command?", "answer": "Use: uptime"}
+{"question": "How long system running?", "answer": "Use: uptime"}
+{"question": "Show system uptime?", "answer": "Use: uptime"}
+{"question": "How to check CPU usage?", "answer": "Use: top or htop"}
+{"question": "Monitor CPU usage command?", "answer": "Use: top or htop"}
+{"question": "Show processor usage?", "answer": "Use: top or htop"}
+{"question": "CPU utilization command?", "answer": "Use: top or htop"}
+{"question": "Check CPU load?", "answer": "Use: top or htop"}
+{"question": "How do I monitor real-time process activity?", "answer": "Use: htop or top -p <PID>"}
+{"question": "Real-time process monitor?", "answer": "Use: htop or top -p <PID>"}
+{"question": "Live process monitoring?", "answer": "Use: htop or top -p <PID>"}
+{"question": "Interactive process viewer?", "answer": "Use: htop or top -p <PID>"}
+{"question": "How to see process tree?", "answer": "Use: pstree or ps --forest"}
+{"question": "Show process hierarchy?", "answer": "Use: pstree or ps --forest"}
+{"question": "Process tree view command?", "answer": "Use: pstree or ps --forest"}
+{"question": "Parent child process view?", "answer": "Use: pstree or ps --forest"}
+{"question": "How do I check which process uses a file?", "answer": "Use: lsof <filename> or fuser <filename>"}
+{"question": "Find process using file?", "answer": "Use: lsof <filename> or fuser <filename>"}
+{"question": "Which process has file open?", "answer": "Use: lsof <filename> or fuser <filename>"}
+{"question": "File usage by process?", "answer": "Use: lsof <filename> or fuser <filename>"}
+{"question": "How to monitor disk I/O?", "answer": "Use: iostat or iotop"}
+{"question": "Check disk I/O activity?", "answer": "Use: iostat or iotop"}
+{"question": "Monitor disk performance?", "answer": "Use: iostat or iotop"}
+{"question": "Disk input output monitoring?", "answer": "Use: iostat or iotop"}
+{"question": "How do I check network usage by process?", "answer": "Use: nethogs or iftop"}
+{"question": "Monitor network usage per process?", "answer": "Use: nethogs or iftop"}
+{"question": "Network bandwidth by process?", "answer": "Use: nethogs or iftop"}
+{"question": "Which process uses network?", "answer": "Use: nethogs or iftop"}
+{"question": "How to see system resource usage?", "answer": "Use: vmstat or sar"}
+{"question": "System performance statistics?", "answer": "Use: vmstat or sar"}
+{"question": "Monitor system resources?", "answer": "Use: vmstat or sar"}
+{"question": "System activity report?", "answer": "Use: vmstat or sar"}
+{"question": "How do I check network connections?", "answer": "Use: netstat -an or ss -tuln"}
+{"question": "Show network connections?", "answer": "Use: netstat -an or ss -tuln"}
+{"question": "List active connections?", "answer": "Use: netstat -an or ss -tuln"}
+{"question": "View network sockets?", "answer": "Use: netstat -an or ss -tuln"}
+{"question": "Check open connections?", "answer": "Use: netstat -an or ss -tuln"}
+{"question": "How to ping a server?", "answer": "Use: ping <hostname/IP>"}
+{"question": "Test connectivity to server?", "answer": "Use: ping <hostname/IP>"}
+{"question": "Check if server is reachable?", "answer": "Use: ping <hostname/IP>"}
+{"question": "Ping command test connection?", "answer": "Use: ping <hostname/IP>"}
+{"question": "How do I download a file from URL?", "answer": "Use: curl -O <URL> or wget <URL>"}
+{"question": "Download file from internet?", "answer": "Use: curl -O <URL> or wget <URL>"}
+{"question": "Fetch file from web?", "answer": "Use: curl -O <URL> or wget <URL>"}
+{"question": "Get file from URL command?", "answer": "Use: curl -O <URL> or wget <URL>"}
+{"question": "Web download command?", "answer": "Use: curl -O <URL> or wget <URL>"}
+{"question": "How to check open ports?", "answer": "Use: netstat -tuln or ss -tuln"}
+{"question": "List open ports command?", "answer": "Use: netstat -tuln or ss -tuln"}
+{"question": "Show listening ports?", "answer": "Use: netstat -tuln or ss -tuln"}
+{"question": "Check which ports are open?", "answer": "Use: netstat -tuln or ss -tuln"}
+{"question": "Port status command?", "answer": "Use: netstat -tuln or ss -tuln"}
+{"question": "How do I trace network route?", "answer": "Use: traceroute <hostname/IP>"}
+{"question": "Trace route to server?", "answer": "Use: traceroute <hostname/IP>"}
+{"question": "Show network path?", "answer": "Use: traceroute <hostname/IP>"}
+{"question": "Network route tracing?", "answer": "Use: traceroute <hostname/IP>"}
+{"question": "How to test port connectivity?", "answer": "Use: telnet <host> <port> or nc -zv <host> <port>"}
+{"question": "Check if port is open?", "answer": "Use: telnet <host> <port> or nc -zv <host> <port>"}
+{"question": "Test connection to port?", "answer": "Use: telnet <host> <port> or nc -zv <host> <port>"}
+{"question": "Port connectivity test?", "answer": "Use: telnet <host> <port> or nc -zv <host> <port>"}
+{"question": "How do I check DNS resolution?", "answer": "Use: nslookup <domain> or dig <domain>"}
+{"question": "DNS lookup command?", "answer": "Use: nslookup <domain> or dig <domain>"}
+{"question": "Resolve domain name?", "answer": "Use: nslookup <domain> or dig <domain>"}
+{"question": "Check DNS records?", "answer": "Use: nslookup <domain> or dig <domain>"}
+{"question": "How do I create a Python virtual environment?", "answer": "Use: python -m venv <env-name> or python3 -m venv <env-name>"}
+{"question": "Make Python virtual environment?", "answer": "Use: python -m venv <env-name> or python3 -m venv <env-name>"}
+{"question": "Create Python venv command?", "answer": "Use: python -m venv <env-name> or python3 -m venv <env-name>"}
+{"question": "Setup Python virtual environment?", "answer": "Use: python -m venv <env-name> or python3 -m venv <env-name>"}
+{"question": "Python isolated environment?", "answer": "Use: python -m venv <env-name> or python3 -m venv <env-name>"}
+{"question": "How to activate a Python virtual environment?", "answer": "Use: source <env-name>/bin/activate (Linux/Mac) or <env-name>\\Scripts\\activate (Windows)"}
+{"question": "Activate Python venv command?", "answer": "Use: source <env-name>/bin/activate (Linux/Mac) or <env-name>\\Scripts\\activate (Windows)"}
+{"question": "Start Python virtual environment?", "answer": "Use: source <env-name>/bin/activate (Linux/Mac) or <env-name>\\Scripts\\activate (Windows)"}
+{"question": "Enter Python venv?", "answer": "Use: source <env-name>/bin/activate (Linux/Mac) or <env-name>\\Scripts\\activate (Windows)"}
+{"question": "How do I install a Python package?", "answer": "Use: pip install <package-name>"}
+{"question": "Install Python package command?", "answer": "Use: pip install <package-name>"}
+{"question": "Pip install package?", "answer": "Use: pip install <package-name>"}
+{"question": "Add Python library?", "answer": "Use: pip install <package-name>"}
+{"question": "How to list installed Python packages?", "answer": "Use: pip list or pip freeze"}
+{"question": "Show installed packages?", "answer": "Use: pip list or pip freeze"}
+{"question": "List Python packages command?", "answer": "Use: pip list or pip freeze"}
+{"question": "View installed pip packages?", "answer": "Use: pip list or pip freeze"}
+{"question": "How do I run a Python script?", "answer": "Use: python <script.py> or python3 <script.py>"}
+{"question": "Execute Python script command?", "answer": "Use: python <script.py> or python3 <script.py>"}
+{"question": "Run Python file?", "answer": "Use: python <script.py> or python3 <script.py>"}
+{"question": "Start Python program?", "answer": "Use: python <script.py> or python3 <script.py>"}
+{"question": "How to create requirements.txt?", "answer": "Use: pip freeze > requirements.txt"}
+{"question": "Generate requirements file?", "answer": "Use: pip freeze > requirements.txt"}
+{"question": "Export Python dependencies?", "answer": "Use: pip freeze > requirements.txt"}
+{"question": "Make Python requirements file?", "answer": "Use: pip freeze > requirements.txt"}
+{"question": "How do I install from requirements.txt?", "answer": "Use: pip install -r requirements.txt"}
+{"question": "Install Python dependencies from file?", "answer": "Use: pip install -r requirements.txt"}
+{"question": "Load requirements file?", "answer": "Use: pip install -r requirements.txt"}
+{"question": "Install from requirements?", "answer": "Use: pip install -r requirements.txt"}
+{"question": "How to upgrade a Python package?", "answer": "Use: pip install --upgrade <package-name>"}
+{"question": "Update Python package command?", "answer": "Use: pip install --upgrade <package-name>"}
+{"question": "Upgrade pip package?", "answer": "Use: pip install --upgrade <package-name>"}
+{"question": "Update Python library?", "answer": "Use: pip install --upgrade <package-name>"}
+{"question": "How do I uninstall a Python package?", "answer": "Use: pip uninstall <package-name>"}
+{"question": "Remove Python package command?", "answer": "Use: pip uninstall <package-name>"}
+{"question": "Delete pip package?", "answer": "Use: pip uninstall <package-name>"}
+{"question": "Uninstall Python library?", "answer": "Use: pip uninstall <package-name>"}
+{"question": "How to check Python version?", "answer": "Use: python --version or python -V"}
+{"question": "Python version command?", "answer": "Use: python --version or python -V"}
+{"question": "Check Python version installed?", "answer": "Use: python --version or python -V"}
+{"question": "What Python version?", "answer": "Use: python --version or python -V"}
+{"question": "How do I list Docker containers?", "answer": "Use: docker ps for running containers or docker ps -a for all"}
+{"question": "Show Docker containers command?", "answer": "Use: docker ps for running containers or docker ps -a for all"}
+{"question": "List running Docker containers?", "answer": "Use: docker ps for running containers or docker ps -a for all"}
+{"question": "View Docker container status?", "answer": "Use: docker ps for running containers or docker ps -a for all"}
+{"question": "Check Docker containers?", "answer": "Use: docker ps for running containers or docker ps -a for all"}
+{"question": "How to build a Docker image?", "answer": "Use: docker build -t <image-name> ."}
+{"question": "Build Docker image command?", "answer": "Use: docker build -t <image-name> ."}
+{"question": "Create Docker image?", "answer": "Use: docker build -t <image-name> ."}
+{"question": "Docker build from Dockerfile?", "answer": "Use: docker build -t <image-name> ."}
+{"question": "How do I run a Docker container?", "answer": "Use: docker run <image-name> or docker run -it <image-name> for interactive"}
+{"question": "Start Docker container command?", "answer": "Use: docker run <image-name> or docker run -it <image-name> for interactive"}
+{"question": "Launch Docker container?", "answer": "Use: docker run <image-name> or docker run -it <image-name> for interactive"}
+{"question": "Execute Docker container?", "answer": "Use: docker run <image-name> or docker run -it <image-name> for interactive"}
+{"question": "How to stop a Docker container?", "answer": "Use: docker stop <container-id/name>"}
+{"question": "Stop Docker container command?", "answer": "Use: docker stop <container-id/name>"}
+{"question": "Halt Docker container?", "answer": "Use: docker stop <container-id/name>"}
+{"question": "Terminate Docker container?", "answer": "Use: docker stop <container-id/name>"}
+{"question": "How do I remove a Docker container?", "answer": "Use: docker rm <container-id/name>"}
+{"question": "Delete Docker container command?", "answer": "Use: docker rm <container-id/name>"}
+{"question": "Remove Docker container?", "answer": "Use: docker rm <container-id/name>"}
+{"question": "Clean up Docker container?", "answer": "Use: docker rm <container-id/name>"}
+{"question": "How to list Docker images?", "answer": "Use: docker images or docker image ls"}
+{"question": "Show Docker images command?", "answer": "Use: docker images or docker image ls"}
+{"question": "List available Docker images?", "answer": "Use: docker images or docker image ls"}
+{"question": "View Docker images?", "answer": "Use: docker images or docker image ls"}
+{"question": "How do I remove a Docker image?", "answer": "Use: docker rmi <image-id/name>"}
+{"question": "Delete Docker image command?", "answer": "Use: docker rmi <image-id/name>"}
+{"question": "Remove Docker image?", "answer": "Use: docker rmi <image-id/name>"}
+{"question": "Clean Docker image?", "answer": "Use: docker rmi <image-id/name>"}
+{"question": "How to enter a running container?", "answer": "Use: docker exec -it <container-id> /bin/bash"}
+{"question": "Access Docker container shell?", "answer": "Use: docker exec -it <container-id> /bin/bash"}
+{"question": "Connect to Docker container?", "answer": "Use: docker exec -it <container-id> /bin/bash"}
+{"question": "Docker container interactive shell?", "answer": "Use: docker exec -it <container-id> /bin/bash"}
+{"question": "How do I view container logs?", "answer": "Use: docker logs <container-id>"}
+{"question": "Show Docker container logs?", "answer": "Use: docker logs <container-id>"}
+{"question": "Check Docker logs?", "answer": "Use: docker logs <container-id>"}
+{"question": "Docker container output logs?", "answer": "Use: docker logs <container-id>"}
+{"question": "How do I connect via SSH?", "answer": "Use: ssh <username>@<hostname/IP>"}
+{"question": "SSH connection command?", "answer": "Use: ssh <username>@<hostname/IP>"}
+{"question": "Connect to remote server SSH?", "answer": "Use: ssh <username>@<hostname/IP>"}
+{"question": "Login via SSH?", "answer": "Use: ssh <username>@<hostname/IP>"}
+{"question": "Remote server connection?", "answer": "Use: ssh <username>@<hostname/IP>"}
+{"question": "How to copy files over SSH?", "answer": "Use: scp <file> <user>@<host>:<path> or rsync -av <source> <user>@<host>:<dest>"}
+{"question": "Transfer files via SSH?", "answer": "Use: scp <file> <user>@<host>:<path> or rsync -av <source> <user>@<host>:<dest>"}
+{"question": "Copy files to remote server?", "answer": "Use: scp <file> <user>@<host>:<path> or rsync -av <source> <user>@<host>:<dest>"}
+{"question": "SSH file transfer command?", "answer": "Use: scp <file> <user>@<host>:<path> or rsync -av <source> <user>@<host>:<dest>"}
+{"question": "Secure copy command?", "answer": "Use: scp <file> <user>@<host>:<path> or rsync -av <source> <user>@<host>:<dest>"}
+{"question": "How do I generate SSH key?", "answer": "Use: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""}
+{"question": "Create SSH key pair?", "answer": "Use: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""}
+{"question": "Generate SSH key command?", "answer": "Use: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""}
+{"question": "Make SSH keys?", "answer": "Use: ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\""}
+{"question": "How to copy SSH key to server?", "answer": "Use: ssh-copy-id <user>@<host>"}
+{"question": "Install SSH public key?", "answer": "Use: ssh-copy-id <user>@<host>"}
+{"question": "Add SSH key to server?", "answer": "Use: ssh-copy-id <user>@<host>"}
+{"question": "Deploy SSH key command?", "answer": "Use: ssh-copy-id <user>@<host>"}
+{"question": "How do I compare two files?", "answer": "Use: diff <file1> <file2> or cmp <file1> <file2>"}
+{"question": "Compare files command?", "answer": "Use: diff <file1> <file2> or cmp <file1> <file2>"}
+{"question": "Show file differences?", "answer": "Use: diff <file1> <file2> or cmp <file1> <file2>"}
+{"question": "Check if files are identical?", "answer": "Use: diff <file1> <file2> or cmp <file1> <file2>"}
+{"question": "How to watch file changes in real-time?", "answer": "Use: tail -f <filename> or watch <command>"}
+{"question": "Monitor file changes command?", "answer": "Use: tail -f <filename> or watch <command>"}
+{"question": "Real-time file monitoring?", "answer": "Use: tail -f <filename> or watch <command>"}
+{"question": "Watch file updates live?", "answer": "Use: tail -f <filename> or watch <command>"}
+{"question": "How do I create a backup with timestamp?", "answer": "Use: cp file.txt file_$(date +%Y%m%d_%H%M%S).bak"}
+{"question": "Backup file with timestamp?", "answer": "Use: cp file.txt file_$(date +%Y%m%d_%H%M%S).bak"}
+{"question": "Create timestamped backup?", "answer": "Use: cp file.txt file_$(date +%Y%m%d_%H%M%S).bak"}
+{"question": "Backup with date stamp?", "answer": "Use: cp file.txt file_$(date +%Y%m%d_%H%M%S).bak"}
+{"question": "How to find the largest files?", "answer": "Use: find . -type f -exec ls -lh {} + | sort -k5 -hr | head -10"}
+{"question": "Find biggest files command?", "answer": "Use: find . -type f -exec ls -lh {} + | sort -k5 -hr | head -10"}
+{"question": "Locate largest files on disk?", "answer": "Use: find . -type f -exec ls -lh {} + | sort -k5 -hr | head -10"}
+{"question": "Show top 10 largest files?", "answer": "Use: find . -type f -exec ls -lh {} + | sort -k5 -hr | head -10"}
+{"question": "How do I check file checksums?", "answer": "Use: md5sum <file> or sha256sum <file>"}
+{"question": "Generate file checksum?", "answer": "Use: md5sum <file> or sha256sum <file>"}
+{"question": "Verify file integrity?", "answer": "Use: md5sum <file> or sha256sum <file>"}
+{"question": "File hash command?", "answer": "Use: md5sum <file> or sha256sum <file>"}
+{"question": "How to synchronize directories?", "answer": "Use: rsync -av --delete <source>/ <destination>/"}
+{"question": "Sync directories command?", "answer": "Use: rsync -av --delete <source>/ <destination>/"}
+{"question": "Mirror directories?", "answer": "Use: rsync -av --delete <source>/ <destination>/"}
+{"question": "Directory synchronization?", "answer": "Use: rsync -av --delete <source>/ <destination>/"}
+{"question": "How do I check environment variables?", "answer": "Use: env or printenv"}
+{"question": "List environment variables?", "answer": "Use: env or printenv"}
+{"question": "Show environment variables?", "answer": "Use: env or printenv"}
+{"question": "View env vars command?", "answer": "Use: env or printenv"}
+{"question": "How to set an environment variable?", "answer": "Use: export VAR_NAME=value (temporary) or add to ~/.bashrc for permanent"}
+{"question": "Set environment variable command?", "answer": "Use: export VAR_NAME=value (temporary) or add to ~/.bashrc for permanent"}
+{"question": "Create env variable?", "answer": "Use: export VAR_NAME=value (temporary) or add to ~/.bashrc for permanent"}
+{"question": "Define environment variable?", "answer": "Use: export VAR_NAME=value (temporary) or add to ~/.bashrc for permanent"}
+{"question": "How do I check PATH variable?", "answer": "Use: echo $PATH"}
+{"question": "Show PATH environment variable?", "answer": "Use: echo $PATH"}
+{"question": "Display PATH contents?", "answer": "Use: echo $PATH"}
+{"question": "View PATH variable?", "answer": "Use: echo $PATH"}
+{"question": "How to add directory to PATH?", "answer": "Use: export PATH=$PATH:/new/directory or add to ~/.bashrc"}
+{"question": "Add to PATH command?", "answer": "Use: export PATH=$PATH:/new/directory or add to ~/.bashrc"}
+{"question": "Extend PATH variable?", "answer": "Use: export PATH=$PATH:/new/directory or add to ~/.bashrc"}
+{"question": "Include directory in PATH?", "answer": "Use: export PATH=$PATH:/new/directory or add to ~/.bashrc"}
+{"question": "How do I change file owner?", "answer": "Use: chown <user>:<group> <file> or sudo chown <user> <file>"}
+{"question": "Change file ownership command?", "answer": "Use: chown <user>:<group> <file> or sudo chown <user> <file>"}
+{"question": "Set file owner?", "answer": "Use: chown <user>:<group> <file> or sudo chown <user> <file>"}
